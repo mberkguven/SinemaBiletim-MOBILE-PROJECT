@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "510435516845",
+    "firebase_url": "https://sinemabiletim-5d9d1.firebaseio.com",
+    "project_id": "sinemabiletim-5d9d1",
+    "storage_bucket": "sinemabiletim-5d9d1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:510435516845:android:ba5658ea2dafc655",
+        "android_client_info": {
+          "package_name": "com.example.baba.sinemabiletim"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "510435516845-kbjlrem62ruhusrvvtm5cooquacekd4a.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.baba.sinemabiletim",
+            "certificate_hash": "bed7386a39c8fdd48a619b4576de8eba4bad64b9"
+          }
+        },
+        {
+          "client_id": "510435516845-pv8jb4q91qs702mf4luf3kioqd3uhtev.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGaBC-NasZWfo9OYuG1MjgLKtGxKquxR0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "510435516845-pv8jb4q91qs702mf4luf3kioqd3uhtev.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

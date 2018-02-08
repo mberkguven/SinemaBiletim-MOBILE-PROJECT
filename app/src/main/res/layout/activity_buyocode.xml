@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/siyaharkaplan"
+    tools:context="com.example.baba.sinemabiletim.buyocodeactivity">
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_centerInParent="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:src="@drawable/sinemabiletim"
+            android:layout_width="200dp"
+            android:layout_height="100dp"
+            android:layout_gravity="center"
+            />
+        <TextView
+            android:gravity="center"
+            android:id="@+id/kayittxtsdc"
+            android:text="Aşağıdaki formu doldur, hemen bilet kodunu verelim!"
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+
+
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:id="@+id/editbiletsayisadece"
+            android:hint="Bilet Adetini Giriniz"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@android:color/white"
+            android:textColorHighlight="@android:color/white"
+            android:text=""
+            android:layout_alignParentBottom="true"
+            android:textColor="@android:color/white"
+            android:inputType="phone"
+            app:met_baseColor="@android:color/white"
+            app:met_floatingLabel="highlight"
+            app:met_primaryColor="@android:color/white"
+            app:met_singleLineEllipsis="true"
+            />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/uyaritext"
+            android:text="Kişi sayısına göre tek bir kod verilecektir."
+            android:layout_gravity="center"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="1dp"
+            android:layout_width="wrap_content"
+            android:singleLine="true"
+            android:layout_height="wrap_content" />
+
+
+
+        <Button
+            android:id="@+id/btnsdcbilet"
+            android:text="SATIN AL"
+            android:textColor="@android:color/white"
+            android:layout_weight="1"
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:background="@color/btnkayit"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#030516</color>
+    <color name="colorPrimaryDark">#030516</color>
+    <color name="colorAccent">#030516</color>
+
+    <color name="btnkayit">#0c1348</color>
+    <color name="btnkayita">#113c74</color>
+
+    <color name="menuarkaplan">#4d4b59</color>
+    <color name="menuaccbar">#000000</color>
+
+</resources>
